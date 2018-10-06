@@ -22,7 +22,7 @@
     "type": "git",
     "url": "https://github.com/sialvsic/tree-shaking-babel-6-demo.git"
   },
-  "author": "",
+  "author": "sialvsic",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
