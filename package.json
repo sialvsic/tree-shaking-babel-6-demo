@@ -19,7 +19,8 @@
     "build-step-9": "webpack --display-used-exports --display-modules --config ./src/Step9/webpack.config.js"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/sialvsic/tree-shaking-babel-6-demo.git"
   },
   "author": "",
   "license": "ISC",
