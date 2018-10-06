@@ -1,0 +1,41 @@
+{
+  "name": "tree-shaking-babel-6-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src -d lib",
+    "build-step-1": "webpack --display-used-exports --display-modules --config ./src/Step1/webpack.config.js",
+    "build-step-1+": "webpack --display-used-exports --display-modules --config ./src/Step1+/webpack.config.js",
+    "build-step-2": "webpack --display-used-exports --display-modules --config ./src/Step2/webpack.config.js",
+    "build-step-3": "webpack --display-used-exports --display-modules --config ./src/Step3/webpack.config.js",
+    "build-step-4": "webpack --display-used-exports --display-modules --config ./src/Step4/webpack.config.js",
+    "build-step-5": "webpack --display-used-exports --display-modules --config ./src/Step5/webpack.config.js",
+    "build-step-6": "webpack --display-used-exports --display-modules --config ./src/Step6/webpack.config.js",
+    "build-step-7": "webpack --display-used-exports --display-modules --config ./src/Step7/webpack.config.js",
+    "build-step-7-babel": "webpack --display-used-exports --display-modules --config ./src/Step7/webpack.config.babel.js",
+    "build-step-7-babel-loose": "webpack --display-used-exports --display-modules --config ./src/Step7/webpack.config.babel.loose.js",
+    "build-step-8": "webpack --display-used-exports --display-modules --config ./src/Step8/webpack.config.js",
+    "build-step-9": "webpack --display-used-exports --display-modules --config ./src/Step9/webpack.config.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "lodash-es": "^4.17.11",
+    "webpack": "4.19.0",
+    "webpack-bundle-analyzer": "^3.0.2",
+    "webpack-cli": "3.1.0",
+    "webpack-deep-scope-plugin": "^1.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "tree-shaking-npm-module-demo": "^1.0.0-a2"
+  }
+}
