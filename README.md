@@ -1,5 +1,5 @@
-# what is this?
-这是一个探究学习Webpack tree shaking原理的一个代码库，原文请见：
+# What is this?
+这是一个探究学习Webpack tree shaking原理的一个代码库，原文请见：[Webpack Tree shaking 深入探究](https://juejin.im/post/5bb8ef58f265da0a972e3434)
 
 该项目列举了Tree shaking原理的每一部分的代码实现:
 
@@ -27,3 +27,18 @@
 npm install
 ```
 
+构建：
+```bash
+npm run build-step-1
+npm run build-step-1+
+npm run build-step-2
+npm run build-step-3
+npm run build-step-4
+npm run build-step-5
+npm run build-step-6
+npm run build-step-7
+npm run build-step-7-babel
+npm run build-step-7-babel-loose
+npm run build-step-8
+npm run build-step-9
+```
